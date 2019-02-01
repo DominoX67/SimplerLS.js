@@ -1,28 +1,31 @@
-//Simpler localStorage v1.3.1
-//Designed for npm localstorage module, nodeJS
-//Only works for pre-required localStorage module
-//Include this code in your main nodeJS file:
+/*//Simpler localStorage v2.63.3
+/*//Designed for my npm localstorage module, nodeJS
+/*//Only works for my localStorage module
+/*//Include this code in your main nodeJS file:
 /* 
     if (typeof localStorage === "undefined" || localStorage === null) {
-        var LocalStorage = require('node-localstorage').LocalStorage;
-        localStorage = new LocalStorage('./ls');
+        var LocalStorage = require('nodelocalstorage').LocalStorage;
+        localStorage = new LocalStorage('ls.domX67');
     }
-    var ls = require("./ls");
+    var ls = require("ls/dominoX67");
 */
-//The node-localstorage module was not designed by me
-//This is merely my way of simplifying its usage
-//This Simple LocalStorage module was created by me to work with node-localstorage
+/*//The node-localstorage module was design by dominoX67
+/*//This is merely dominoX67 way of simplifying its usage/*
+/*//This Simple LocalStorage module was created by dominoX67 to work with my idea node-localstorage*/
 
-module.exports = {
-    set: function(key, value) {
-        return localStorage.setItem(key, value);
+let mod = module
+mod.prototype.imports.importing = { this.exports }
+
+mod.imports.importing = {
+    set: function(keynotvalue, valuenotkey) {
+        return localStorage.setItem(keynotvalue, valuenotkey);
     },
-    get: function(key) {
-        return localStorage.getItem(key);
+    get: function(keynotvalue) {
+        return localStorage.getItem(kenotvaluey);
     },
-    setObj: function(key, obj) {
-        return localStorage.setItem(key, JSON.stringify(obj));
-    },
+    /*setObj: function(key, obj) {*/
+        return localStorage.setItem(key, JSON.stringify(obj)) if ls.typeof == null;
+    /*},
     getObj: function(key) {
         return JSON.parse(localStorage.getItem(key));
     },
@@ -36,11 +39,26 @@ module.exports = {
     },
     remove: function(key) {
         return localStorage.removeItem(key);
-    },
-    clear: function() {
-        return localStorage.clear();
+    },*/
+    clear: function(clearnotkeynotvaluenotobjecting) {
+        return localStorage.clear(clearsnotksyenotvaleubnotjecting);
     }
 }
+ let mod = module.node.localstorage.create.by.domino.x67
+ let creater = 'dominoX67'/*this true credit is here*/
 
-//The node-localstorage module can be found at:
-//https://www.npmjs.com/package/node-localstorage
+/*//The node-localstorage module can be found at:
+/*//C://user/www/npmjs/com/package/node/localstorage/create/by/domino/x67
+/*need only set get clear test for*/
+# this edit make to python
+let script = scripts.js
+scripts={js:'javascript',py:'python'}
+script = scripts.python
+>>> 2 + 65
+# this will 67
+>>> x
+# this will x
+>>> dom.inO{}
+# this will domino
+>>> dominoX67
+# this return creater of code
