@@ -1,5 +1,5 @@
 # SimplerLS.js
-A simplified version of the npm module "node-localstorage" for my and others' convenience. Requires node-localstorage as a dependency. Shortens the length of localStorage scripts to increase your efficiency and reduce time wasted typing. Successfully tested. Used in large-scale projects such as Databaser, an efficient database made with nodeJS and expressJS.
+Code to simplify usage of the npm module "node-localstorage" for my and others' convenience. Requires node-localstorage as a dependency. Shortens the length of localStorage scripts to increase your efficiency and reduce time wasted typing. Successfully tested. Used in large-scale projects such as Databaser, an efficient database made with nodeJS and expressJS.
 
 ## Installation
 This is a simplification of the NodeJS module. First, install nodeJS. Then, get "node-localstorage" and its dependencies by running `npm install node-localstorage`
